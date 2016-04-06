@@ -22,7 +22,7 @@
 1. `git clone https://github.com/AnthonyAstige/too-high-fiber.git`
 1. `cd ~/too-high-fiber && meteor build ~/built-with-fiber` Build
 1. `cd ~/built-with-fiber && tar -xvf too-high-fiber.tar.gz` Decompress
-1. `cd ~/built-with-fiber/bundle/programs/server && npm install` Prepare **THIS STEP FAILS**
+1. `cd ~/built-with-fiber/bundle/programs/server && npm install` Prepare **[THIS STEP FAILS AS SHOWN](https://raw.githubusercontent.com/AnthonyAstige/too-high-fiber/master/fiber-fail.png)**
 1. `cd ~/built-with-fiber/bundle && PORT=80 ROOT_URL=http://my-app.com node main.js` Run **ONLY WORKS AFTER WORK-AROUND**
 
 #### Working around the problem
