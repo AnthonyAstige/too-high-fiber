@@ -6,7 +6,7 @@
 
 ### What works
 
-* `meteor`
+`meteor` Running the app with bundled meteor command appears to work just fine
 
 ### Reproducing the problem
 
